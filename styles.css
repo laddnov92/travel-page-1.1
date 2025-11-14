@@ -1,0 +1,58 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: lightblue; /* test background */
+}
+
+/* Header styles */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Navigation buttons */
+nav button {
+    margin-right: 10px;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #1c5980;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+}
+
+/* Figures */
+figure {
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
+}
+
+figure img {
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+}
