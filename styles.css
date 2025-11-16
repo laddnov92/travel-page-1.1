@@ -17,6 +17,15 @@ header {
     z-index: 100;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+nav .contact-info {
+    text-align: right;
+}
 /* Navigation buttons */
 nav button {
     margin-right: 10px;
